@@ -42,7 +42,7 @@ nav button{
 
 /*Intro container stylings*/
 .intro-cotainer{
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("./assets/Hero-bg.png");
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
