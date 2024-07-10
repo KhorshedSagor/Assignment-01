@@ -192,3 +192,194 @@ nav button{
     width: 1140px;
     height: 614px;
 }
+
+/*Current target section*/
+
+
+.current-target{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.box-card-title{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.box-card-details{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.learn-more-2{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    color: black;
+}
+
+.box-card-1{
+    width: 364px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.box-card-2{
+    width: 364px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.box-card-3{
+    width: 364px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.medium-cards{
+    display: flex;
+    flex-direction: row;
+    margin: 48px;
+    height: 340px;
+    width: 1140px;
+    gap: 15px;
+}
+
+.small-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-card{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    padding: 40px;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+/*Contact with me section*/
+
+.contact-me{
+    background-image: linear-gradient(45deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.90) 100%),url(/assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0px 150px 80px;
+    max-width: 1140px;
+    max-height: 300px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+}
+
+.contact-me-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+    line-height: 36px;
+}
+
+.contact-me-details{
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 16px 0px;
+    line-height: 26px;
+}
+
+.contact-me-input{
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    margin: 0px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    line-height: 19px;
+}
+
+.contact-me-button{
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    margin: 0px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 23px;
+}
+
+.submission{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+/*Footer section*/
+
+.footer{
+    margin-top: 50px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-content{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-left: 150px;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-right: 150px;
+}
+
+.footer-link{
+
+    margin-top: 10px;
+    width: 36.86px;
+    height: 35.95px;
+}
