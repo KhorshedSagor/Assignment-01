@@ -1,3 +1,4 @@
+
 /*Font styling*/
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
@@ -8,83 +9,186 @@
 
 /*Body nav styling*/
 body{
-  width: 1440px;
-  height: 656px;
+    width: 1440px;
+    height: 656px;
 }
 
 nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
 }
 nav h2{
-  color: rgb(13, 19, 33);
-  font-size: 28px;
-  font-weight: 800;
-  text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
 }
 
 nav button{
-  box-sizing: border-box;
-  border: 1px solid rgb(13, 19, 33);
-  border-radius: 8px;
-  opacity: 0.8;
-  padding: 17px 24px 17px 24px;
-  color: rgb(13, 19, 33);
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-  margin: 0px 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 17px 24px 17px 24px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 10px;
 
 
 }
 
 /*Intro container stylings*/
 .intro-cotainer{
-  background-image: url("./assets/Hero-bg.png");
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
+    background-image: url("/assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .intro-image{
 
-  width: 240.28px;
-  height: 240px;
-  margin-top: 26px;
+    width: 240.28px;
+    height: 240px;
+    margin-top: 26px;
 }
 
 .intro-title{
-  color: rgb(13, 19, 33);
-  font-size: 48px;
-  font-weight: 800;
-  line-height: 68px;
-  text-align: center;
-  margin: 32px 221px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    margin: 32px 221px 0px;
 }
 
 .intro-paragraph{
-  color: rgb(13, 19, 33);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  text-align: center;
-  margin: 24px 221px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 24px 221px 0px;
 }
 
 
 
 .intro-button{
-  padding: 21px 24px 21px 24px;
-  margin: 32px;
-  border-radius: 8px;
-  background: rgb(13, 19, 33);
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
+    padding: 21px 24px 21px 24px;
+    margin: 32px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/*Why web dev section*/
+
+.why-web-dev{
+    margin: 100px 148px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.why-web-dev-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+    color: rgb(13, 19, 33);
+
+}
+
+.why-web-dev-container-title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    line-height: 37px;
+
+}
+
+.why-web-dev-container-details{
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.cards{
+    margin-top: 48px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.cards-reverse{
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.card-details{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.learn-more{
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+
+}
+
+/*My inspiration section*/
+
+.my-inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-inspiration>p{
+    margin: 0px 292px;
+    line-height: 26px;
+}
+
+.player{
+    margin: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    width: 1140px;
+    height: 614px;
 }
